@@ -1,4 +1,4 @@
-const notificationController = require("../controllers/notification.controller");
+const notificationController = require("../controllers/enteriosNotification.controller");
 //const { authJwt, verifyTicketRequestBody } = require("../middlewares");
 
 module.exports = function (app) {

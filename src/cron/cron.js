@@ -15,7 +15,7 @@ cron.schedule('*/30  * * * * *', async ()=>{
     notifications.forEach(notification => {
          
         const mailData = {
-            from: 'crm-notification-service@gmail.com',
+            from: 'enterios-notification-service@gmail.com',
             to: notification.recepientEmails,
             subject: notification.subject,
             text: notification.content

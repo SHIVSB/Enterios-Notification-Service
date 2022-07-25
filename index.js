@@ -5,7 +5,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 const dotenv = require("dotenv");
 const logger = require("morgan");
-const PORT = process.env.NODE_ENV === "PRODUCTION" || 6000;
+const PORT = process.env.NODE_ENV === "PRODUCTION" || 7777;
 const dbConnect = require("./src/config/db.config");
 
 dotenv.config();
